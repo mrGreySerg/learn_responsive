@@ -1,6 +1,4 @@
-$border: 1px solid black;
-body{
-    color: red;
-}
 
-@import './for_import/%'
+@import './for_import/%';
+@import './for_import/viewport';
+@import './for_import/@media';

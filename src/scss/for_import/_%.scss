@@ -1,7 +1,15 @@
-$border: 1px solid black;
+html{
+    font-size: 20px;
+}
 
-.head{
-    height: 200px;
-    border: $border;
-    font-size: 1rem;
+.wrap_block{
+    border: 1px solid #000;
+    font-size: 10px;
+}
+
+// rem зависят от font-size - в html
+.block {
+    height: 3rem;
+    width: 300px;
+    background: green;
 }
